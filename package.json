@@ -1,0 +1,21 @@
+{
+  "name": "d3test01",
+  "version": "1.0.0",
+  "description": "First D3 app",
+  "main": "index.js",
+  "author": "Pawel Madziar",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^5.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-preset-env": "^2.0.0-beta.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "parcel-bundler": "^1.9.7"
+  },
+  "scripts": {
+    "build": "node .\\node_modules\\parcel-bundler\\bin\\cli.js build -d .\\dist\\prod --no-source-maps .\\src\\index.html",
+    "serve": "node .\\node_modules\\parcel-bundler\\bin\\cli.js serve -d .\\dist\\debug .\\src\\index.html"
+  }
+}
