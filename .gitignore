@@ -74,3 +74,6 @@ typings/
 
 # compiled files
 dist
+
+# yarn
+yarn.lock
